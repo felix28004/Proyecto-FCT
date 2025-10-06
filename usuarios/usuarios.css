@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+/* Estilo para el fondo */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3949AB;
+    color: #FFFFFF; /* Texto blanco para contraste */
+  }
+
+  .titulo {
+    color: rgb(255, 125, 3);
+    border-bottom: 2px solid #FFA726;
+    font-size: 30px;
+    margin-bottom: 50px;
+    width: 75%;
+    font-family: "Space Grotesk", sans-serif;
+    margin-left: 15%;
+  }
+
+.intro{
+  border-left: 4px solid #FF7300; /* mismo naranja del título */
+  padding-left: 1%;
+  margin-bottom: 1em;
+  font-size: 20px;
+  padding-bottom: 1px;
+  padding-left: 1px ;
+  padding-top: 1px;
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 15%;
+  width: 78%;
+}
+
+h3{
+  color: rgb(253, 137, 27) ;
+}
+
+  /* Menú lateral */
+  .menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #1A237E;
+    color: white;
+    padding-top: 20px;
+    box-shadow: 3px 0 10px rgba(1,1,1,1);
+    font-size: 18px;
+  }
+  
+  .menu h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFA726; /* Naranja */
+  }
+  
+  .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 6%;
+  }
+
+  .menu ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 0;
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  overflow: auto;
+}
+
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #FF7300;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  background-color: #3949AB;
+  color: white;
+}
+
+.btn2{
+    background-color: #3949AB;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color:rgb(253, 132, 34);
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 15px;
+   
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: #FF9A28;
+    border: 2px solid black;  
+}
